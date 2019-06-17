@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Mukta');
+
+.display-position{
+  display: flex;
+  justify-content: center;
+}
+
+.register-size-position{
+  width: 758px;
+
+  .internal-content{
+    margin: 0%;
+
+    .register-label{
+      font-family: 'Open Sans';
+      font-size: 29px;
+      font-weight: bold;
+      color: #585859;
+      margin: 0 0 17px 0;
+      text-align: left;
+      margin-bottom: 32px;
+    }
+
+    form{
+      
+      .display-flex{
+        display: flex;
+      }
+      
+      .form-group{
+
+        p{
+          font-family: 'Mukta';
+          font-size: 16px;
+          color: #585859;
+          font-weight: bold;
+          margin: 0 0 6px 0;
+        }
+
+        input{
+          height: 42px;
+          margin: 0 0 9px 0;
+          border-color: #C2C2C2;
+          border: solid 1px;
+          color: #C2C2C2;
+          border-radius: 7px;
+          padding-left: 20.45px;
+          width: calc(100% - 28.45px);
+
+          ::placeholder{
+            font-family: 'Mukta';
+          }
+        }
+
+        .box-personal-information{
+          width: 362px;
+          margin-right: calc(34px / 2);
+
+          .small-input{
+            width: 40%;
+          }
+
+          .box-space-rgt{
+            margin-right: 10px;
+          }
+
+          .box-space-lft{
+            margin-left: 10px;
+          }
+
+        }
+
+        .box-address{
+          width: 362px;
+          margin-left: calc(34px / 2);
+
+          .small-input{
+            width: 20%;
+          }
+
+          .normal-input{
+            width: 60%;
+          }
+
+          .box-space-rgt{
+            margin-right: 10px;
+          }
+
+          .box-space-lft{
+            margin-left: 10px;
+          }
+        }
+      }
+      
+      .button-center{
+        display: flex;
+        justify-content: center;
+
+        button{
+          margin: 40px 0 0 0;
+          width: 361px;
+          border-radius: 39px;
+          border: 0px;
+          color: #fff;
+          background-color: #7626FF;
+          font-family: Mukta;
+          font-weight: bold;
+          height: 60px;
+          font-size: 18px;
+          box-shadow: 0 10px 3.5em rgba(134, 127, 246, 0.48); //RBG de #867FF6 com o Alpha de 0.48
+          cursor: pointer;
+        }
+      }
+      
+      input.ng-dirty.ng-invalid {
+        color: red
+      }
+    }
+
+    a{
+      font-size: 16px;
+      color: #0077C5;
+      font-family: 'Mukta';
+      font-weight: 200;
+      margin: 23px 0 0 0;
+      text-align: center;
+      text-transform: none;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+      
+        
+      //   p{
+      //     display: flex;
+      //     justify-content: flex-end;
+      //     font-size: 12px;
+      //     font-weight: bold;
+      //     font-family: 'Mukta';
+      //     color: #585859;
+      //     margin: 0;
+      //   }
+      // }
+
+      // button{
+      //   margin: 21px 0 0 0;
+      //   margin: 21px 0 0 0;
+      //   width: 100%;
+      //   border-radius: 39px;
+      //   border: 0px;
+      //   color: #fff;
+      //   background-color: #7626FF;
+      //   font-family: Mukta;
+      //   font-weight: bold;
+      //   height: 60px;
+      //   font-size: 18px;
+      //   box-shadow: 0 10px 3.5em rgba(134, 127, 246, 0.48); //RBG de #867FF6 com o Alpha de 0.48
+      // }
+  }
+}

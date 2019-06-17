@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Mukta');
+
+.display-position{
+  display: flex;
+  justify-content: center;
+}
+
+.login-size-position{
+  width: 373px;
+
+  .internal-content{
+    margin: 0%;
+
+    .enter-label{
+      font-family: 'Open Sans';
+      font-size: 29px;
+      font-weight: bold;
+      color: #585859;
+      margin: 0 0 17px 0;
+      text-align: left;
+    }
+
+    form{
+      .input-group{
+        width: 100%;
+
+        input{
+          height: 42px;
+          width: calc(373px - 23px) !important;
+          margin: 0 0 9px 0;
+          border-color: #C2C2C2;
+          border: solid 1px;
+          color: #C2C2C2;
+          border-radius: 3px;
+          padding-left: 20.45px;
+          justify-content: center;
+  
+          ::placeholder{
+            font-family: 'Mukta';
+          }
+        }
+        
+        p{
+          display: flex;
+          justify-content: flex-end;
+          font-size: 12px;
+          font-weight: bold;
+          font-family: 'Mukta';
+          color: #585859;
+          margin: 0;
+        }
+      }
+
+      button{
+        margin: 21px 0 0 0;
+        margin: 21px 0 0 0;
+        width: 100%;
+        border-radius: 39px;
+        border: 0px;
+        color: #fff;
+        background-color: #7626FF;
+        font-family: Mukta;
+        font-weight: bold;
+        height: 60px;
+        font-size: 18px;
+        box-shadow: 0 10px 3.5em rgba(134, 127, 246, 0.48); //RBG de #867FF6 com o Alpha de 0.48
+        cursor: pointer;
+      }
+
+    }
+    
+    a{
+      font-size: 16px;
+      color: #0077C5;
+      font-family: 'Mukta';
+      font-weight: 200;
+      margin: 23px 0 0 0;
+      text-align: center;
+      text-transform: none;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+  }
+}

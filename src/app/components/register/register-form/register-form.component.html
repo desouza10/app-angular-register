@@ -1,0 +1,39 @@
+<div class="display-position">
+    <div class="register-size-position">
+        <div class="internal-content">
+            <p class="register-label">Cadastrar</p>
+            <form [formGroup]="personalDataForm" (ngSubmit)="onSubmit()">
+              <div class="form-group">
+                <div class="display-flex">
+                  <div class="box-personal-information">
+                    <p>Informações Pessoais</p>
+                    <div class="input-group">
+                        <input formControlName="name" type="text" placeholder="Nome/Razão Social" class="form-control" required>
+                        <input formControlName="cpf" mask="000.000.000-00" placeholder="CPF" class="form-control small-input box-space-rgt" validation="true" required>
+                        <input formControlName="phone" type="text" placeholder="Telefone" class="form-control small-input box-space-lft" mask="(00) 0000-0000" validation="true" required>
+                        <input formControlName="email" type="email" placeholder="E-mail" ngModel email="true" class="form-control" validation="true" required>
+                        <input formControlName="password" placeholder="Senha" type="password" class="form-control" required>
+                    </div>
+                  </div>
+                  <div class="input-group box-address">
+                    <p>Endereço</p>
+                    <div>
+                        <input formControlName="cep" placeholder=CEP type="text" required class="small-input box-space-rgt" mask="00000-000" validation="true">
+                        <input formControlName="street" placeholder="Logradouro" required class="normal-input box-space-lft">
+                        <input formControlName="number" placeholder="Numero" required class="small-input box-space-rgt">
+                        <input formControlName="neighborhood" placeholder="Bairro" required class="normal-input box-space-lft">
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="button-center">
+                    <button type="submit">Cadastrar</button>
+                </div>
+             </form>
+             <div class="display-position">
+                  <a routerLink="/login" routerLinkActive="active">Já tem uma conta? Faça login</a>
+             </div>
+        </div>
+    </div>
+  </div>
+  
